@@ -5,5 +5,5 @@ class HttpResult<T>{
   String message;
   int httpCode;
 
-  HttpResult(this.success, this.bean,[this.message,this.httpCode]);
+  HttpResult(this.success, this.bean,[this.httpCode, this.message]);
 }
